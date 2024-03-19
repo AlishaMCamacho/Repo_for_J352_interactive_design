@@ -1,0 +1,270 @@
+/* POPPINS GOOGLE FONT */
+
+.poppins-thin {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.poppins-thin-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.poppins-extralight {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.poppins-extralight-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.poppins-light {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.poppins-light-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-regular-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.poppins-medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.poppins-medium-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.poppins-semibold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.poppins-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.poppins-bold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.poppins-extrabold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.poppins-extrabold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: italic;
+}
+
+.poppins-black {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.poppins-black-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+/* MARHEY <uniquifier>: Use a unique and descriptive class name
+ <weight>: Use a value from 300 to 700 */
+
+.marhey-<uniquifier> {
+  font-family: "Marhey", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+
+/* FONT STYLES*/
+
+h1 {
+            text-transform: uppercase;
+            font-family: Marhey;
+            font-size: 48px;
+            letter-spacing: 1.5px;
+            text-align: left;
+            margin: 0 auto;
+          }
+
+h2 {
+            text-transform: uppercase;
+            font-family: Poppins;
+            font-weight: 700;
+            font-size: 36px;
+            letter-spacing: 1.5px;
+            text-align: left;
+            margin: 0 auto;
+          }
+
+h3 {
+            text-transform: uppercase;
+            font-family: Poppins;
+            font-weight: 600;
+            font-size: 24px;
+            letter-spacing: 1.5px;
+            text-align: left;
+            margin: 0 auto;
+          }
+
+h5 {
+            font-family: Poppins;
+            font-size: 22px;
+            letter-spacing: 1.5px;
+            text-align: left;
+            margin: 0 auto;
+          }
+
+  p1{
+  	font-family: Poppins;
+  	font-size: 18;
+  	letter-spacing: 1.5px;
+  	text-align: left;
+  	margin: 0 auto;
+  	line-height: 1.2px;
+  }
+
+
+/* COLORS */
+
+.green-dark {
+	color: #17362c;
+}
+
+/* BUTTON STYLE*/
+
+
+.button-green {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    background-color:#17362c;
+    color: #ffffff;
+    border: none;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.button-green:hover {
+  background-color:#7b9e82;
+}
+
+
+/* MENU */
+
+.menu {
+	background: darkseagreen;
+
+	}
+
+	a{
+		color:#ffffff;
+	}
+
+	a:hover {
+		color: #545454;
+	}
+}
+
+
+
+
+/* LOGO HOVER EFFECT */
+.logo {
+    position: relative; 
+}
+
+.logo:hover {
+    opacity: 0.5; 
+}
+
+
+/*HERO*/
+
+.hero-section {
+  text-align: left;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+          overflow: hidden;
+}
+
+/* TEXT BOX*/
+.hero-section .text-box-hero {
+ position: relative;
+ bottom: 150px;
+  font-size: 4vw; /* Adjust font size based on viewport width */
+  color: white;
+  padding: 2vw; /* Adjust padding based on font size */
+  background-color: #222222;
+  text-align: left;
+  opacity: 0.7;
+  border-radius: 20px;
+  line-height: 1.4;
+  max-height: 100%; /* Ensure text box doesn't exceed the height of hero section */
+  overflow: hidden; /* Prevent overflowing content */
+}
+
+@media (max-width: 768px) {
+  .text-box-hero {
+    font-size: 6vw; /* Adjust font size for smaller viewports */
+  }
+}
+
+@media (max-width: 480px) {
+  .text-box-hero {
+    font-size: 8vw; /* Adjust font size for even smaller viewports */
+  }
+}
