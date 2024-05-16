@@ -22,7 +22,7 @@
   bottom: 14%;
   left: 5%;
   padding: 20px;
-  max-width: 50%;
+  max-width: 55%;
   white-space: nowrap;
 }
 
@@ -47,11 +47,12 @@
     font-size: 6vw; /* Adjust as needed */
   }
 
+
 /*h5 small*/
-@media only screen and (max-width: 768px) and (min-width: 300px){
+@media only screen and (max-width: 768px) and (min-width: 360px){
   /* Adjust font size for larger screens */
   .hero-section-1 .hero-section-text h5 {
-    font-size: 2vw; /* Adjust as needed */
+    font-size: 3.5vw; /* Adjust as needed */
   }
 }
 
