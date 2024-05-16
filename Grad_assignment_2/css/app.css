@@ -52,7 +52,7 @@
 @media only screen and (max-width: 768px) and (min-width: 767px){
   /* Adjust font size for larger screens */
   .hero-section-1 .hero-section-text h5 {
-    font-size: 3.5vw; /* Adjust as needed */
+    font-size: 3vw; /* Adjust as needed */
   }
 }
 
