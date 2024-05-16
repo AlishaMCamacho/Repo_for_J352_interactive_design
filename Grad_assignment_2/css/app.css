@@ -21,27 +21,64 @@
   position: absolute;
   bottom: 8%;
   left: 5%;
-  padding:20px;
+  padding: 20px;
   max-width: 55%;
   white-space: nowrap;
 }
 
-@media only screen and (max-width: 768px) {
-  /* Adjust font sizes for smaller screens */
-  
-  .hero-section-1 .hero-section-text h1 {
-    font-size: 30px;
-    white-space: nowrap;
-    color: white;
-  }
+.hero-section-1 .hero-section-text h1 {
+  font-size: 4vw; /* Adjust as needed for default size */
+  white-space: nowrap;
+  color: white;
+}
 
+.hero-section-1 .hero-section-text h5 {
+  font-size: 3vw; /* Adjust as needed for default size */
+  white-space: nowrap;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+  color: white;
+}
+
+@media only screen and (min-width: 769px) {
+  /* Adjust font size for larger screens */
   .hero-section-1 .hero-section-text h5 {
-    font-size: 18px;
-    white-space: nowrap;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
-    color: white;
+    font-size: 2vw; /* Adjust as needed */
   }
 }
+
+/* LAYOUTS */
+
+/*hero*/
+
+.hero-section {
+  text-align: left;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+          overflow: hidden;
+          background-size: contain;
+       }
+
+/*text-only*/
+.p-style {
+  max-width: 55%;
+  margin: 0 auto;
+  text-align: left;
+}
+
+@media only screen and (max-width: 768px) {
+  /* Change max-width to 90% on smaller screens */
+  .p-style {
+    max-width: 90%;
+  }
+}
+
 
 /* LAYOUTS */
 
