@@ -19,37 +19,48 @@
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
   opacity: .9;
   position: absolute;
-  bottom: 8%;
+  bottom: 14%;
   left: 5%;
   padding: 20px;
   max-width: 55%;
   white-space: nowrap;
 }
 
+
+/*hero h1*/
 .hero-section-1 .hero-section-text h1 {
-  font-size: 4vw; /* Adjust as needed for default size */
   white-space: nowrap;
   color: white;
 }
 
+/*hero h5*/
 .hero-section-1 .hero-section-text h5 {
-  font-size: 3vw; /* Adjust as needed for default size */
   white-space: nowrap;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
   color: white;
 }
 
-@media only screen and (min-width: 769px) {
+/*h1 small*/
+@media only screen and (max-width: 768px) {
+  /* Adjust font size for larger screens */
+  .hero-section-1 .hero-section-text h1 {
+    font-size: 6vw; /* Adjust as needed */
+  }
+
+
+/*h5 small*/
+@media only screen and (max-width: 768px) and (min-width: 767px){
   /* Adjust font size for larger screens */
   .hero-section-1 .hero-section-text h5 {
-    font-size: 1.2vw; /* Adjust as needed */
+    font-size: 3.5vw; /* Adjust as needed */
   }
 }
 
-@media only screen and (min-width: 800px) {
+ /*h5 large*/
+@media only screen and  (min-width: 800px) and (max-width: 1919px) {
   /* Adjust font size for larger screens */
   .hero-section-1 .hero-section-text h5 {
-    font-size: 2vw; /* Adjust as needed */
+    font-size: 1vw; /* Adjust as needed */
   }
 }
 
